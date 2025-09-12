@@ -1,0 +1,12 @@
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\Shared\SharedEvent\bin\Debug\net8.0\SharedEvent.deps.json
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\Shared\SharedEvent\bin\Debug\net8.0\SharedEvent.dll
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\Shared\SharedEvent\bin\Debug\net8.0\SharedEvent.pdb
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\Shared\SharedEvent\obj\Debug\net8.0\SharedEvent.csproj.AssemblyReference.cache
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\Shared\SharedEvent\obj\Debug\net8.0\SharedEvent.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\Shared\SharedEvent\obj\Debug\net8.0\SharedEvent.AssemblyInfoInputs.cache
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\Shared\SharedEvent\obj\Debug\net8.0\SharedEvent.AssemblyInfo.cs
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\Shared\SharedEvent\obj\Debug\net8.0\SharedEvent.csproj.CoreCompileInputs.cache
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\Shared\SharedEvent\obj\Debug\net8.0\SharedEvent.dll
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\Shared\SharedEvent\obj\Debug\net8.0\refint\SharedEvent.dll
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\Shared\SharedEvent\obj\Debug\net8.0\SharedEvent.pdb
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\Shared\SharedEvent\obj\Debug\net8.0\ref\SharedEvent.dll

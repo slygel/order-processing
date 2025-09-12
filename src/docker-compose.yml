@@ -1,0 +1,50 @@
+version: '3.8'
+
+services:
+  apigateway:
+    build:
+      context: .
+      dockerfile: ApiGateway/Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:5000
+    depends_on:
+      - orderservice
+      - paymentservice
+      - productservice
+
+  orderservice:
+    build:
+      context: .
+      dockerfile: OrderService/OrderService.API/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:5000
+    ports:
+      - "5103:5000"
+      - "5203:5203"
+
+  paymentservice:
+    build:
+      context: .
+      dockerfile: PaymentService/PaymentService.API/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:5000
+    ports:
+      - "5104:5000"
+
+  productservice:
+    build:
+      context: .
+      dockerfile: ProductService/ProductService.API/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:5000
+    ports:
+      - "5041:5000"
+
+volumes:
+  sqldata:

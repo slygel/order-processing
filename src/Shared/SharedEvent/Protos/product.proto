@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+option csharp_namespace = "SharedEvent.Protos";
+
+package product;
+
+service ProductGrpc {
+  rpc GetProduct (GetProductRequest) returns (GetProductResponse);
+  rpc GetProducts (GetProductsRequest) returns (GetProductsResponse);
+}
+
+message GetProductRequest {
+  string product_id = 1;
+}
+
+message GetProductResponse {
+  ProductInfo product = 1;
+}
+
+message GetProductsRequest {
+  // Empty request for getting all products
+}
+
+message GetProductsResponse {
+  repeated ProductInfo products = 1;
+}
+
+message ProductInfo {
+  string id = 1;
+  string product_name = 2;
+  double price = 3;
+  string created_at = 4;
+}

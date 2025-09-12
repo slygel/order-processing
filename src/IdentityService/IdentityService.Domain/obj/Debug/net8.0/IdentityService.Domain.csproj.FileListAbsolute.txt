@@ -1,0 +1,12 @@
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Domain\bin\Debug\net8.0\IdentityService.Domain.deps.json
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Domain\bin\Debug\net8.0\IdentityService.Domain.dll
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Domain\bin\Debug\net8.0\IdentityService.Domain.pdb
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Domain\obj\Debug\net8.0\IdentityService.Domain.csproj.AssemblyReference.cache
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Domain\obj\Debug\net8.0\IdentityService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Domain\obj\Debug\net8.0\IdentityService.Domain.AssemblyInfoInputs.cache
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Domain\obj\Debug\net8.0\IdentityService.Domain.AssemblyInfo.cs
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Domain\obj\Debug\net8.0\IdentityService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Domain\obj\Debug\net8.0\IdentityService.Domain.dll
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Domain\obj\Debug\net8.0\refint\IdentityService.Domain.dll
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Domain\obj\Debug\net8.0\IdentityService.Domain.pdb
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Domain\obj\Debug\net8.0\ref\IdentityService.Domain.dll

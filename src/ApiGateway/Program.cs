@@ -1,0 +1,72 @@
+using Yarp.ReverseProxy.Configuration;
+using Consul;
+using ApiGateway.Configs;
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+// Add CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
+// Add HealthChecks
+builder.Services.AddHealthChecks();
+
+// Use Consul for dynamic service discovery
+builder.Services.AddReverseProxy();
+builder.Services.AddSingleton<IProxyConfigProvider, ConsulProxyConfigProvider>();
+builder.Services.AddSingleton<IConsulClient>(_ => 
+    new ConsulClient(cfg => cfg.Address = new Uri("http://localhost:8500")));
+
+// GraphQL Gateway
+builder.Services
+    .AddGraphQLServer()
+    .AddRemoteSchema("order_service")
+    .AddRemoteSchema("product_service");
+
+builder.Services.AddHttpClient("order_service",
+    c => c.BaseAddress = new Uri("http://localhost:5000/order-service/graphql")); 
+
+builder.Services.AddHttpClient("product_service",
+    c => c.BaseAddress = new Uri("http://localhost:5000/product-service/graphql"));
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "API Gateway V1");
+    });
+}
+
+app.MapGet(
+    "/",
+    context =>
+    {
+        context.Response.Redirect("/swagger");
+        return Task.CompletedTask;
+    }
+);
+
+app.UseCors("AllowAll");
+
+// Map YARP routes
+app.MapReverseProxy();
+app.MapGraphQL("/graphql");
+app.MapControllers();
+app.MapHealthChecks("/health");
+
+app.Run();

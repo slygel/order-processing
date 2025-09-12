@@ -1,0 +1,17 @@
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Infrastructure\bin\Debug\net8.0\IdentityService.Infrastructure.deps.json
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Infrastructure\bin\Debug\net8.0\IdentityService.Infrastructure.runtimeconfig.json
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Infrastructure\bin\Debug\net8.0\IdentityService.Infrastructure.dll
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Infrastructure\bin\Debug\net8.0\IdentityService.Infrastructure.pdb
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Infrastructure\bin\Debug\net8.0\IdentityService.Domain.dll
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Infrastructure\bin\Debug\net8.0\IdentityService.Domain.pdb
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Infrastructure\obj\Debug\net8.0\IdentityService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Infrastructure\obj\Debug\net8.0\IdentityService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Infrastructure\obj\Debug\net8.0\IdentityService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Infrastructure\obj\Debug\net8.0\IdentityService.Infrastructure.AssemblyInfo.cs
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Infrastructure\obj\Debug\net8.0\IdentityService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Infrastructure\obj\Debug\net8.0\Identity.1C9B4358.Up2Date
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Infrastructure\obj\Debug\net8.0\IdentityService.Infrastructure.dll
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Infrastructure\obj\Debug\net8.0\refint\IdentityService.Infrastructure.dll
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Infrastructure\obj\Debug\net8.0\IdentityService.Infrastructure.pdb
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Infrastructure\obj\Debug\net8.0\IdentityService.Infrastructure.genruntimeconfig.cache
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Infrastructure\obj\Debug\net8.0\ref\IdentityService.Infrastructure.dll

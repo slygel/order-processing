@@ -1,0 +1,11 @@
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.Domain\bin\Debug\net8.0\OrderService.Domain.deps.json
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.Domain\bin\Debug\net8.0\OrderService.Domain.dll
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.Domain\bin\Debug\net8.0\OrderService.Domain.pdb
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.Domain\obj\Debug\net8.0\OrderService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.Domain\obj\Debug\net8.0\OrderService.Domain.AssemblyInfoInputs.cache
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.Domain\obj\Debug\net8.0\OrderService.Domain.AssemblyInfo.cs
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.Domain\obj\Debug\net8.0\OrderService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.Domain\obj\Debug\net8.0\OrderService.Domain.dll
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.Domain\obj\Debug\net8.0\refint\OrderService.Domain.dll
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.Domain\obj\Debug\net8.0\OrderService.Domain.pdb
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.Domain\obj\Debug\net8.0\ref\OrderService.Domain.dll

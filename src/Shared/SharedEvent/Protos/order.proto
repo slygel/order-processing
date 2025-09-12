@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option csharp_namespace = "SharedEvent.Protos";
+
+service OrderService {
+  rpc ConfirmPayment (ConfirmPaymentRequest) returns (ConfirmPaymentResponse);
+}
+
+message ConfirmPaymentRequest {
+  string orderId = 1;
+}
+
+message ConfirmPaymentResponse {
+  bool success = 1;
+}
