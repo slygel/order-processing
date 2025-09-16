@@ -49,7 +49,7 @@ public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand,
         }
         catch (Exception ex)
         {
-            return Results<ProductDto>.Failure($"An error occurred while creating the product: {ex.Message}", 500);
+            return Results<ProductDto>.Failure($"Unexpected error: {ex.Message}", 500);
         }
     }
 }
