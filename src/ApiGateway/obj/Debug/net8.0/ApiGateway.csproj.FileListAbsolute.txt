@@ -79,3 +79,4 @@ C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\ApiGateway\b
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\ApiGateway\bin\Debug\net8.0\HotChocolate.Utilities.Introspection.dll
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\ApiGateway\bin\Debug\net8.0\BananaCakePop.Middleware.dll
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\ApiGateway\bin\Debug\net8.0\HotChocolate.Types.OffsetPagination.dll
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\ApiGateway\obj\Debug\net8.0\ApiGateway.sourcelink.json

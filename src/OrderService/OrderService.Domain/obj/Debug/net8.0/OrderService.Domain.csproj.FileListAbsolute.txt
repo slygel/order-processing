@@ -9,3 +9,4 @@ C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.Domain\obj\Debug\net8.0\refint\OrderService.Domain.dll
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.Domain\obj\Debug\net8.0\OrderService.Domain.pdb
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.Domain\obj\Debug\net8.0\ref\OrderService.Domain.dll
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.Domain\obj\Debug\net8.0\OrderService.Domain.sourcelink.json

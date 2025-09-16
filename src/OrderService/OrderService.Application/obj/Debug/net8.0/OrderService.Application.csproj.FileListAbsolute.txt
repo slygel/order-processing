@@ -17,3 +17,4 @@ C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.Application\obj\Debug\net8.0\OrderService.Application.pdb
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.Application\obj\Debug\net8.0\OrderService.Application.genruntimeconfig.cache
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.Application\obj\Debug\net8.0\ref\OrderService.Application.dll
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.Application\obj\Debug\net8.0\OrderService.Application.sourcelink.json

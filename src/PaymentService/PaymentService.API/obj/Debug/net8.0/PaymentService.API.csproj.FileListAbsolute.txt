@@ -182,3 +182,4 @@ C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\PaymentServi
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\PaymentService\PaymentService.API\obj\Debug\net8.0\PaymentService.API.pdb
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\PaymentService\PaymentService.API\obj\Debug\net8.0\PaymentService.API.genruntimeconfig.cache
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\PaymentService\PaymentService.API\obj\Debug\net8.0\ref\PaymentService.API.dll
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\PaymentService\PaymentService.API\obj\Debug\net8.0\PaymentService.API.sourcelink.json

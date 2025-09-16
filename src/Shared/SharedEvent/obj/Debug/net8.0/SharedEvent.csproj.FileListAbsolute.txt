@@ -10,3 +10,4 @@ C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\Shared\Share
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\Shared\SharedEvent\obj\Debug\net8.0\refint\SharedEvent.dll
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\Shared\SharedEvent\obj\Debug\net8.0\SharedEvent.pdb
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\Shared\SharedEvent\obj\Debug\net8.0\ref\SharedEvent.dll
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\Shared\SharedEvent\obj\Debug\net8.0\SharedEvent.sourcelink.json

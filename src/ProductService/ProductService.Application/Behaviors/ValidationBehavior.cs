@@ -1,10 +1,12 @@
-using System;
 using FluentValidation;
 using MediatR;
+using ProductService.Application.Common;
 
 namespace ProductService.Application.Behaviors;
 
-public class ValidationBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse> where TRequest : IRequest<TResponse>
+public class ValidationBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
+    where TRequest : IRequest<TResponse>
+    where TResponse : class
 {
     private readonly IEnumerable<IValidator<TRequest>> _validators;
 
@@ -26,10 +28,27 @@ public class ValidationBehavior<TRequest, TResponse> : IPipelineBehavior<TReques
 
             if (failures.Count != 0)
             {
-                throw new ValidationException(failures);
+                var errorMessages = failures
+                    .Select(failure => failure.ErrorMessage)
+                    .Distinct()
+                    .ToList();
+
+                if (typeof(TResponse).IsGenericType && typeof(TResponse).GetGenericTypeDefinition() == typeof(Results<>))
+                {
+                    var errorMessage = string.Join(", ", errorMessages);
+                    var resultType = typeof(TResponse).GetGenericArguments()[0];
+                    var result = typeof(Results<>)
+                        .MakeGenericType(resultType)
+                        .GetMethod("Failure", new[] { typeof(string), typeof(int) })
+                        ?.Invoke(null, new object[] { errorMessage, 400 });
+
+                    return result as TResponse ?? throw new InvalidOperationException("Could not create failure result");
+                }
+
             }
         }
 
         return await next(cancellationToken);
     }
 }
+

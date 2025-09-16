@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj": {}
+    "c:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj": {
+    "c:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj",
+        "projectUniqueName": "c:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj",
         "projectName": "OrderService.Domain",
-        "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj",
+        "projectPath": "c:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj",
         "packagesPath": "C:\\Users\\TueNguyenTai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\OrderService\\OrderService.Domain\\obj\\",
+        "outputPath": "c:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\OrderService\\OrderService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TueNguyenTai\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

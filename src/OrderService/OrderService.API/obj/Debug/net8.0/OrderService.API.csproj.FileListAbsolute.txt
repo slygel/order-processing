@@ -233,3 +233,4 @@ C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.API\bin\Debug\net8.0\Yarp.ReverseProxy.dll
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.API\bin\Debug\net8.0\Consul.dll
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.API\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.API\obj\Debug\net8.0\OrderService.API.sourcelink.json

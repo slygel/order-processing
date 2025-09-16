@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\Shared\\SharedEvent\\SharedEvent.csproj": {}
+    "c:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\Shared\\SharedEvent\\SharedEvent.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\Shared\\SharedEvent\\SharedEvent.csproj": {
+    "c:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\Shared\\SharedEvent\\SharedEvent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\Shared\\SharedEvent\\SharedEvent.csproj",
+        "projectUniqueName": "c:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\Shared\\SharedEvent\\SharedEvent.csproj",
         "projectName": "SharedEvent",
-        "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\Shared\\SharedEvent\\SharedEvent.csproj",
+        "projectPath": "c:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\Shared\\SharedEvent\\SharedEvent.csproj",
         "packagesPath": "C:\\Users\\TueNguyenTai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\Shared\\SharedEvent\\obj\\",
+        "outputPath": "c:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\Shared\\SharedEvent\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TueNguyenTai\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -74,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

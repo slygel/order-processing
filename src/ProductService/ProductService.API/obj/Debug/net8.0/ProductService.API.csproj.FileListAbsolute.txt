@@ -233,3 +233,4 @@ C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\ProductServi
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\ProductService\ProductService.API\bin\Debug\net8.0\Grpc.Net.Common.dll
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\ProductService\ProductService.API\bin\Debug\net8.0\SharedEvent.dll
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\ProductService\ProductService.API\bin\Debug\net8.0\SharedEvent.pdb
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\ProductService\ProductService.API\obj\Debug\net8.0\ProductService.API.sourcelink.json

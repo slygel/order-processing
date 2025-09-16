@@ -19,3 +19,4 @@ C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.Infrastructure\bin\Debug\net8.0\SharedEvent.dll
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.Infrastructure\bin\Debug\net8.0\OrderService.Application.pdb
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.Infrastructure\bin\Debug\net8.0\SharedEvent.pdb
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.Infrastructure\obj\Debug\net8.0\OrderService.Infrastructure.sourcelink.json

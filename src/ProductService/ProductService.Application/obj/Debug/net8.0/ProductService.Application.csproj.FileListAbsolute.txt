@@ -15,3 +15,4 @@ C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\ProductServi
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\ProductService\ProductService.Application\obj\Debug\net8.0\ref\ProductService.Application.dll
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\ProductService\ProductService.Application\bin\Debug\net8.0\ProductService.Application.runtimeconfig.json
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\ProductService\ProductService.Application\obj\Debug\net8.0\ProductService.Application.genruntimeconfig.cache
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\ProductService\ProductService.Application\obj\Debug\net8.0\ProductService.Application.sourcelink.json
