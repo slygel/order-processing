@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\Shared\\SharedEvent\\SharedEvent.csproj": {}
+    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\Shared\\SharedEvent\\SharedEvent.csproj": {}
   },
   "projects": {
-    "c:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\Shared\\SharedEvent\\SharedEvent.csproj": {
+    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\Shared\\SharedEvent\\SharedEvent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\Shared\\SharedEvent\\SharedEvent.csproj",
+        "projectUniqueName": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\Shared\\SharedEvent\\SharedEvent.csproj",
         "projectName": "SharedEvent",
-        "projectPath": "c:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\Shared\\SharedEvent\\SharedEvent.csproj",
+        "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\Shared\\SharedEvent\\SharedEvent.csproj",
         "packagesPath": "C:\\Users\\TueNguyenTai\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\Shared\\SharedEvent\\obj\\",
+        "outputPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\Shared\\SharedEvent\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TueNguyenTai\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ProductService\\ProductService.API\\ProductService.API.csproj": {}
+    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.API\\ProductService.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ProductService\\ProductService.API\\ProductService.API.csproj": {
+    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.API\\ProductService.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ProductService\\ProductService.API\\ProductService.API.csproj",
+        "projectUniqueName": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.API\\ProductService.API.csproj",
         "projectName": "ProductService.API",
-        "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ProductService\\ProductService.API\\ProductService.API.csproj",
+        "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.API\\ProductService.API.csproj",
         "packagesPath": "C:\\Users\\TueNguyenTai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ProductService\\ProductService.API\\obj\\",
+        "outputPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TueNguyenTai\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,14 +26,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ProductService\\ProductService.Application\\ProductService.Application.csproj": {
-                "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ProductService\\ProductService.Application\\ProductService.Application.csproj"
+              "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Application\\ProductService.Application.csproj": {
+                "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Application\\ProductService.Application.csproj"
               },
-              "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj"
+              "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj"
               },
-              "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\Shared\\SharedEvent\\SharedEvent.csproj": {
-                "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\Shared\\SharedEvent\\SharedEvent.csproj"
+              "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\Shared\\SharedEvent\\SharedEvent.csproj": {
+                "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\Shared\\SharedEvent\\SharedEvent.csproj"
               }
             }
           }
@@ -133,14 +133,14 @@
         }
       }
     },
-    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ProductService\\ProductService.Application\\ProductService.Application.csproj": {
+    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Application\\ProductService.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ProductService\\ProductService.Application\\ProductService.Application.csproj",
+        "projectUniqueName": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Application\\ProductService.Application.csproj",
         "projectName": "ProductService.Application",
-        "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ProductService\\ProductService.Application\\ProductService.Application.csproj",
+        "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Application\\ProductService.Application.csproj",
         "packagesPath": "C:\\Users\\TueNguyenTai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ProductService\\ProductService.Application\\obj\\",
+        "outputPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TueNguyenTai\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -155,8 +155,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj": {
-                "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj"
+              "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj": {
+                "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj"
               }
             }
           }
@@ -237,14 +237,14 @@
         }
       }
     },
-    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj": {
+    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj",
         "projectName": "ProductService.Domain",
-        "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj",
+        "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj",
         "packagesPath": "C:\\Users\\TueNguyenTai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ProductService\\ProductService.Domain\\obj\\",
+        "outputPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TueNguyenTai\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -295,14 +295,14 @@
         }
       }
     },
-    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj": {
+    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj",
         "projectName": "ProductService.Infrastructure",
-        "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\TueNguyenTai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ProductService\\ProductService.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TueNguyenTai\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -317,8 +317,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj": {
-                "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj"
+              "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj": {
+                "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj"
               }
             }
           }
@@ -379,14 +379,14 @@
         }
       }
     },
-    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\Shared\\SharedEvent\\SharedEvent.csproj": {
+    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\Shared\\SharedEvent\\SharedEvent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\Shared\\SharedEvent\\SharedEvent.csproj",
+        "projectUniqueName": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\Shared\\SharedEvent\\SharedEvent.csproj",
         "projectName": "SharedEvent",
-        "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\Shared\\SharedEvent\\SharedEvent.csproj",
+        "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\Shared\\SharedEvent\\SharedEvent.csproj",
         "packagesPath": "C:\\Users\\TueNguyenTai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\Shared\\SharedEvent\\obj\\",
+        "outputPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\Shared\\SharedEvent\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TueNguyenTai\\AppData\\Roaming\\NuGet\\NuGet.Config"

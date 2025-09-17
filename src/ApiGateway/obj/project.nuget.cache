@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jF1h6RpU0zQ=",
+  "dgSpecHash": "BUFYymXpfk8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ApiGateway\\ApiGateway.csproj",
+  "projectFilePath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ApiGateway\\ApiGateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TueNguyenTai\\.nuget\\packages\\bananacakepop.middleware\\13.0.0\\bananacakepop.middleware.13.0.0.nupkg.sha512",
     "C:\\Users\\TueNguyenTai\\.nuget\\packages\\consul\\1.7.14.9\\consul.1.7.14.9.nupkg.sha512",

@@ -66,22 +66,6 @@ builder.WebHost.ConfigureKestrel(options =>
     });
 });
 
-var consulClient = new ConsulClient(cfg =>
-{
-    cfg.Address = new Uri("http://localhost:8500");
-});
-
-var registration = new AgentServiceRegistration()
-{
-    ID = $"product-service-{Guid.NewGuid()}",
-    Name = "product-service",
-    Address = "localhost",
-    Port = 5041,
-};
-
-await consulClient.Agent.ServiceDeregister(registration.ID);
-await consulClient.Agent.ServiceRegister(registration);
-
 var app = builder.Build();
 
 app.UseHttpsRedirection();

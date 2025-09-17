@@ -1,6 +1,4 @@
 using Yarp.ReverseProxy.Configuration;
-using Consul;
-using ApiGateway.Configs;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services
@@ -22,11 +20,9 @@ builder.Services.AddCors(options =>
 // Add HealthChecks
 builder.Services.AddHealthChecks();
 
-// Use Consul for dynamic service discovery
-builder.Services.AddReverseProxy();
-builder.Services.AddSingleton<IProxyConfigProvider, ConsulProxyConfigProvider>();
-builder.Services.AddSingleton<IConsulClient>(_ => 
-    new ConsulClient(cfg => cfg.Address = new Uri("http://localhost:8500")));
+// Configure YARP Reverse Proxy
+builder.Services.AddReverseProxy()
+    .LoadFromConfig(builder.Configuration.GetSection("ReverseProxy"));
 
 // GraphQL Gateway
 builder.Services

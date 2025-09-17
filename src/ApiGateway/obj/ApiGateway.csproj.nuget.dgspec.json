@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ApiGateway\\ApiGateway.csproj": {}
+    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ApiGateway\\ApiGateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ApiGateway\\ApiGateway.csproj": {
+    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ApiGateway\\ApiGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ApiGateway\\ApiGateway.csproj",
+        "projectUniqueName": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ApiGateway\\ApiGateway.csproj",
         "projectName": "ApiGateway",
-        "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ApiGateway\\ApiGateway.csproj",
+        "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ApiGateway\\ApiGateway.csproj",
         "packagesPath": "C:\\Users\\TueNguyenTai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ApiGateway\\obj\\",
+        "outputPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ApiGateway\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TueNguyenTai\\AppData\\Roaming\\NuGet\\NuGet.Config"

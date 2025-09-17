@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZaHibBtOEW8=",
+  "dgSpecHash": "oO+nAYvm73k=",
   "success": true,
-  "projectFilePath": "c:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj",
+  "projectFilePath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

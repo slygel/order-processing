@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0LNcAb8VgRI=",
+  "dgSpecHash": "SdjAN8acwGU=",
   "success": true,
-  "projectFilePath": "c:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\Shared\\SharedEvent\\SharedEvent.csproj",
+  "projectFilePath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\Shared\\SharedEvent\\SharedEvent.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TueNguyenTai\\.nuget\\packages\\google.protobuf\\3.32.0\\google.protobuf.3.32.0.nupkg.sha512",
     "C:\\Users\\TueNguyenTai\\.nuget\\packages\\grpc.aspnetcore\\2.57.0\\grpc.aspnetcore.2.57.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Fh0dfcpn18s=",
+  "dgSpecHash": "HbSVPeUdwFs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\PaymentService\\PaymentService.API\\PaymentService.API.csproj",
+  "projectFilePath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\PaymentService\\PaymentService.API\\PaymentService.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TueNguyenTai\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\TueNguyenTai\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

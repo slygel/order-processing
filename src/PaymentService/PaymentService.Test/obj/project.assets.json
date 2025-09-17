@@ -9383,11 +9383,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\PaymentService\\PaymentService.Test\\PaymentService.Test.csproj",
+      "projectUniqueName": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\PaymentService\\PaymentService.Test\\PaymentService.Test.csproj",
       "projectName": "PaymentService.Test",
-      "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\PaymentService\\PaymentService.Test\\PaymentService.Test.csproj",
+      "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\PaymentService\\PaymentService.Test\\PaymentService.Test.csproj",
       "packagesPath": "C:\\Users\\TueNguyenTai\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\PaymentService\\PaymentService.Test\\obj\\",
+      "outputPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\PaymentService\\PaymentService.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TueNguyenTai\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -9402,8 +9402,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\PaymentService\\PaymentService.API\\PaymentService.API.csproj": {
-              "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\PaymentService\\PaymentService.API\\PaymentService.API.csproj"
+            "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\PaymentService\\PaymentService.API\\PaymentService.API.csproj": {
+              "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\PaymentService\\PaymentService.API\\PaymentService.API.csproj"
             }
           }
         }

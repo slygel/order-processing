@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IPSLIPXmYMo=",
+  "dgSpecHash": "zUol2IKHAOY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj",
+  "projectFilePath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

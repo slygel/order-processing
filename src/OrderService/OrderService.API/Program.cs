@@ -89,22 +89,6 @@ builder.WebHost.ConfigureKestrel(options =>
 
 var app = builder.Build();
 
-var consulClient = new ConsulClient(cfg =>
-{
-    cfg.Address = new Uri("http://localhost:8500");
-});
-
-var registration = new AgentServiceRegistration()
-{
-    ID = $"order-service-{Guid.NewGuid()}",
-    Name = "order-service",
-    Address = "localhost",
-    Port = 5103,
-};
-
-await consulClient.Agent.ServiceDeregister(registration.ID);
-await consulClient.Agent.ServiceRegister(registration);
-
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

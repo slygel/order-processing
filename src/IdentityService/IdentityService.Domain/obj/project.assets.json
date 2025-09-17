@@ -2975,11 +2975,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\IdentityService\\IdentityService.Domain\\IdentityService.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\IdentityService\\IdentityService.Domain\\IdentityService.Domain.csproj",
       "projectName": "IdentityService.Domain",
-      "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\IdentityService\\IdentityService.Domain\\IdentityService.Domain.csproj",
+      "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\IdentityService\\IdentityService.Domain\\IdentityService.Domain.csproj",
       "packagesPath": "C:\\Users\\TueNguyenTai\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\OrderProcessing\\src\\IdentityService\\IdentityService.Domain\\obj\\",
+      "outputPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\IdentityService\\IdentityService.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TueNguyenTai\\AppData\\Roaming\\NuGet\\NuGet.Config"
