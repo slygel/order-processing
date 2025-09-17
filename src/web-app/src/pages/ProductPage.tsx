@@ -12,7 +12,9 @@ import type {
     CreateOrderCommandInput, 
     CreateOrderResponse, 
     CreateProductCommandInput,
+    CreateProductResponse
 } from "../types/product";
+
 
 const ProductPage = () => {
     const { data, loading, error } = useQuery<ProductsData>(GET_PRODUCTS);
@@ -42,14 +44,31 @@ const ProductPage = () => {
         },
     });
 
-    const [createProduct, { loading: createLoading }] = useMutation(CREATE_PRODUCT, {
+    const [createProduct, { loading: createLoading }] = useMutation<
+        CreateProductResponse,
+        { command: CreateProductCommandInput }
+    >(CREATE_PRODUCT, {
         refetchQueries: [{ query: GET_PRODUCTS }],
-        onCompleted: () => {
-            setShowCreateModal(false);
-            setNewProduct({ productName: '', price: 0 });
-            toast.success('Product created successfully!');
+        onCompleted: (data) => {
+            if (data.createProduct.isSuccess) {
+                setShowCreateModal(false);
+                setNewProduct({ productName: '', price: 0 });
+                setFieldErrors({});
+                toast.success('Product created successfully!');
+            } else {
+                const errorMessage = data.createProduct.error || 'Failed to create product';
+                console.log(errorMessage);
+                setFieldErrors({
+                    productName: errorMessage
+                });
+            }
         },
         onError: () => {
+            const errorMessage = 'An error occurred while creating the product';
+            setFieldErrors({
+                productName: errorMessage,
+                price: errorMessage
+            });
         },
     });
 
@@ -108,21 +127,11 @@ const ProductPage = () => {
             console.error(err);
         }
     };
-
     const handleCreateProduct = async () => {
         const validation = validateProduct(newProduct);
         setFieldErrors(validation.errors || {});
         
         if (!validation.isValid) {
-            return;
-        }
-
-        const existing = products.find(
-            (p) => p.productName.toLowerCase() === newProduct.productName.trim().toLowerCase()
-        );
-
-        if (existing) {
-            setFieldErrors({ productName: "A product with this name already exists" });
             return;
         }
 
@@ -135,7 +144,6 @@ const ProductPage = () => {
                     }
                 }
             });
-            setFieldErrors({});
         } catch (err) {
             console.error(err);
             if (err instanceof Error) {

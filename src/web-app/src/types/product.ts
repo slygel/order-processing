@@ -16,7 +16,12 @@ export interface CreateProductCommandInput {
 }
 
 export interface CreateProductResponse {
-    createProduct: Product;
+    createProduct: {
+        isSuccess: boolean;
+        error?: string;
+        statusCode: number;
+        value: Product | null;
+    };
 }
 
 export interface CreateOrderCommandInput {
