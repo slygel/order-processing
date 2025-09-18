@@ -17,7 +17,7 @@ services:
     container_name: sqlserver
     environment:
       - ACCEPT_EULA=Y
-      - SA_PASSWORD=Taitueg903?
+      - SA_PASSWORD=${SA_PASSWORD}
     ports:
       - "1433:1433"
     networks:
@@ -89,6 +89,16 @@ services:
       - "5000:5000"
     networks:
       - orderprocessing-network
+
+  frontend:
+    build: 
+      context: .
+      dockerfile: web-app/Dockerfile
+    container_name: frontend
+    ports:
+      - "5173:80"
+    networks:
+      - orderprocessing-network    
 
 networks:
   orderprocessing-network:
