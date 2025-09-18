@@ -31,10 +31,10 @@ builder.Services
     .AddRemoteSchema("product_service");
 
 builder.Services.AddHttpClient("order_service",
-    c => c.BaseAddress = new Uri("http://localhost:5000/order-service/graphql")); 
+    c => c.BaseAddress = new Uri("http://order-service:5103/graphql")); 
 
 builder.Services.AddHttpClient("product_service",
-    c => c.BaseAddress = new Uri("http://localhost:5000/product-service/graphql"));
+    c => c.BaseAddress = new Uri("http://product-service:5041/graphql"));
 
 var app = builder.Build();
 

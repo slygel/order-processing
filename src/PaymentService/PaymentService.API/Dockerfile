@@ -1,20 +1,28 @@
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
 
-EXPOSE 5000
+EXPOSE 5104
 
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:8.0.414 AS build
 WORKDIR /src
+
 COPY ["PaymentService/PaymentService.API/PaymentService.API.csproj", "PaymentService/PaymentService.API/"]
 COPY ["Shared/SharedEvent/SharedEvent.csproj", "Shared/SharedEvent/"]
-RUN dotnet restore "PaymentService/PaymentService.API/PaymentService.API.csproj" 
+
+RUN dotnet restore "PaymentService/PaymentService.API/PaymentService.API.csproj"
+
 COPY . .
 WORKDIR "/src/PaymentService/PaymentService.API"
-RUN dotnet publish "PaymentService.API.csproj" -c Release -o /app/publish /p:UseAppHost=false
+
+RUN dotnet publish -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
 COPY --from=build /app/publish .
 
-ENV ASPNETCORE_URLS=http://0.0.0.0:5000
-ENTRYPOINT ["dotnet", "PaymentService.API.dll", "--urls", "http://0.0.0.0:5000"]
+ENV ASPNETCORE_URLS=http://+:5104
+ENV ASPNETCORE_ENVIRONMENT=Development
+ENV RabbitMQ__Host=rabbitmq
+ENV RabbitMQ__Username=guest
+
+ENTRYPOINT ["dotnet", "PaymentService.API.dll"]

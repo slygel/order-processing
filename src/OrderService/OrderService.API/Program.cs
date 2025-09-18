@@ -7,12 +7,12 @@ using OrderService.Infrastructure;
 using OrderService.Infrastructure.Repositories;
 using OrderService.API.Exceptions;
 using OrderService.API.GraphQL.Types;
-using Consul;
 using OrderService.Application;
 using OrderService.Application.Interfaces;
 using FluentValidation;
 using MediatR;
 using OrderService.Application.Behaviors;
+using OrderService.API.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -49,7 +49,7 @@ builder.Services.AddMassTransit(x =>
 {
     x.UsingRabbitMq((context, cfg) =>
     {
-        cfg.Host("localhost", "/", h =>
+        cfg.Host("rabbitmq", "/", h =>
         {
             h.Username("guest");
             h.Password("guest");
@@ -111,5 +111,5 @@ app.MapControllers();
 app.MapGrpcService<PaymentConfirmationService>();
 app.MapGraphQL();
 app.UseCors("AllowFrontend");
-
+app.MigrateDb();
 app.Run();

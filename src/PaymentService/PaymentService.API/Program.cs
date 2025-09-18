@@ -17,7 +17,7 @@ builder.Services.AddScoped<IPaymentProcessor, PaymentProcessor>();
 
 builder.Services.AddGrpcClient<SharedEvent.Protos.OrderService.OrderServiceClient>(o =>
 {
-    o.Address = new Uri("http://localhost:5203");
+    o.Address = new Uri("http://order-service:5203");
 }).ConfigureChannel(options =>
 {
     options.HttpHandler = new SocketsHttpHandler
@@ -38,7 +38,7 @@ builder.Services.AddMassTransit(x =>
 
     x.UsingRabbitMq((context, cfg) =>
     {
-        cfg.Host("localhost", "/", h =>
+        cfg.Host("rabbitmq", "/", h =>
         {
             h.Username("guest");
             h.Password("guest");

@@ -2,6 +2,7 @@ using Consul;
 using FluentValidation;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
+using ProductService.API.Extensions;
 using ProductService.API.GraphQL.Types;
 using ProductService.API.gRPC.Services;
 using ProductService.Application;
@@ -74,5 +75,5 @@ app.MapGraphQL();
 
 // Map gRPC service
 app.MapGrpcService<ProductGrpcService>();
-
+app.MigrateDb();
 app.Run();
