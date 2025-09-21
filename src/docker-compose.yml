@@ -2,10 +2,6 @@ services:
   rabbitmq:
     image: rabbitmq:3-management
     container_name: rabbitmq
-    hostname: rabbitmq
-    environment:
-      - RABBITMQ_DEFAULT_USER=${RABBITMQ_DEFAULT_USER}
-      - RABBITMQ_DEFAULT_PASS=${RABBITMQ_DEFAULT_PASS}
     ports:
       - "15672:15672"
       - "5672:5672"
@@ -31,74 +27,58 @@ services:
     depends_on:
       - rabbitmq
       - sqlserver
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-      - RabbitMQ__Host=rabbitmq
-      - RabbitMQ__Username=${RABBITMQ_DEFAULT_USER}
-      - RabbitMQ__Password=${RABBITMQ_DEFAULT_PASS}
     ports:
       - "5103:5103"
-      - "5203:5203"
     networks:
       - orderprocessing-network
 
-  product-service:
-    build:
-      context: .
-      dockerfile: ProductService/ProductService.API/Dockerfile
-    container_name: product-service
-    depends_on:
-      - sqlserver
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-    ports:
-      - "5041:5041"
-      - "5241:5241"
-    networks:
-      - orderprocessing-network
+  # product-service:
+  #   build:
+  #     context: .
+  #     dockerfile: ProductService/ProductService.API/Dockerfile
+  #   container_name: product-service
+  #   depends_on:
+  #     - sqlserver
+  #   ports:
+  #     - "5041:5041"
+  #   networks:
+  #     - orderprocessing-network
 
-  payment-service:
-    build:
-      context: .
-      dockerfile: PaymentService/PaymentService.API/Dockerfile
-    container_name: payment-service
-    depends_on:
-      - rabbitmq
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-      - RabbitMQ__Host=rabbitmq
-      - RabbitMQ__Username=${RABBITMQ_DEFAULT_USER}
-      - RabbitMQ__Password=${RABBITMQ_DEFAULT_PASS}
-    ports:
-      - "5104:5104"
-    networks:
-      - orderprocessing-network
+  # payment-service:
+  #   build:
+  #     context: .
+  #     dockerfile: PaymentService/PaymentService.API/Dockerfile
+  #   container_name: payment-service
+  #   depends_on:
+  #     - rabbitmq
+  #   ports:
+  #     - "5104:5104"
+  #   networks:
+  #     - orderprocessing-network
 
-  api-gateway:
-    build:
-      context: .
-      dockerfile: ApiGateway/Dockerfile
-    container_name: api-gateway
-    depends_on:
-      - order-service
-      - product-service
-      - payment-service
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-    ports:
-      - "5000:5000"
-    networks:
-      - orderprocessing-network
+  # api-gateway:
+  #   build:
+  #     context: .
+  #     dockerfile: ApiGateway/Dockerfile
+  #   container_name: api-gateway
+  #   depends_on:
+  #     - order-service
+  #     - product-service
+  #     - payment-service
+  #   ports:
+  #     - "5000:5000"
+  #   networks:
+  #     - orderprocessing-network
 
-  frontend:
-    build: 
-      context: .
-      dockerfile: web-app/Dockerfile
-    container_name: frontend
-    ports:
-      - "5173:80"
-    networks:
-      - orderprocessing-network    
+  # frontend:
+  #   build: 
+  #     context: .
+  #     dockerfile: web-app/Dockerfile
+  #   container_name: frontend
+  #   ports:
+  #     - "5173:80"
+  #   networks:
+  #     - orderprocessing-network    
 
 networks:
   orderprocessing-network:

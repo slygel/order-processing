@@ -1,0 +1,27 @@
+# Dependencies
+node_modules
+npm-debug.log
+ 
+# Build output
+dist
+build
+ 
+# Version control
+.git
+.gitignore
+ 
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+ 
+# IDE files
+.vscode
+.idea
+ 
+# Misc
+README.md
+*.log
+.DS_Store
