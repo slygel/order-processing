@@ -7,7 +7,9 @@ services:
       - "5672:5672"
     networks:
       - orderprocessing-network
-
+    volumes:
+      - rabbitmqdata:/var/lib/rabbitmq
+    
   sqlserver:
     image: mcr.microsoft.com/mssql/server:2022-latest
     container_name: sqlserver
@@ -18,6 +20,8 @@ services:
       - "1433:1433"
     networks:
       - orderprocessing-network
+    volumes:
+      - sqlserverdata:/var/opt/mssql
 
   order-service:
     build:
@@ -83,3 +87,9 @@ services:
 networks:
   orderprocessing-network:
     driver: bridge
+
+volumes:
+  sqlserverdata:
+    driver: local
+  rabbitmqdata:
+    driver: local
