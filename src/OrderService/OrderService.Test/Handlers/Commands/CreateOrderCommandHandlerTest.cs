@@ -7,6 +7,8 @@ using OrderService.Domain.Entities;
 using OrderService.Domain.Interfaces;
 using OrderService.Domain.Enums;
 using SharedEvent.Events;
+using ProductService.Domain.Interfaces;
+using ProductService.Domain.Entities;
 
 namespace OrderService.Test.Handlers.Commands;
 

@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: product-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: product-service
+  template:
+    metadata:
+      labels:
+        app: product-service
+    spec:
+      containers:
+        - name: product-service
+          image: slygel/product-service:latest
+          ports:
+            - containerPort: 5041 # For REST
+            - containerPort: 5241 # For gRPC
+          env:
+          - name: ConnectionStrings__Default
+            value: "Server=mssql-clusterip-srv;Database=ProductDB;User Id=sa;Password=Taitueg903?;"
+          - name: RabbitMQ__Host
+            value: "rabbitmq"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: product-service
+spec:
+  type: ClusterIP
+  selector:
+    app: product-service
+  ports:
+  - name: http
+    port: 5041
+    targetPort: 5041
+  - name: grpc
+    port: 5241
+    targetPort: 5241

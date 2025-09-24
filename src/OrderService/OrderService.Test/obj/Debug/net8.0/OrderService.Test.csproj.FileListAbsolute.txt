@@ -178,3 +178,13 @@ C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.Test\obj\Debug\net8.0\OrderService.Test.pdb
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.Test\obj\Debug\net8.0\OrderService.Test.genruntimeconfig.cache
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\OrderService\OrderService.Test\obj\Debug\net8.0\ref\OrderService.Test.dll
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\order-processing\src\OrderService\OrderService.Test\bin\Debug\net8.0\CoverletSourceRootsMapping_OrderService.Test
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\order-processing\src\OrderService\OrderService.Test\obj\Debug\net8.0\OrderService.Test.csproj.AssemblyReference.cache
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\order-processing\src\OrderService\OrderService.Test\obj\Debug\net8.0\OrderService.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\order-processing\src\OrderService\OrderService.Test\obj\Debug\net8.0\OrderService.Test.AssemblyInfoInputs.cache
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\order-processing\src\OrderService\OrderService.Test\obj\Debug\net8.0\OrderService.Test.AssemblyInfo.cs
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\order-processing\src\OrderService\OrderService.Test\obj\Debug\net8.0\OrderService.Test.csproj.CoreCompileInputs.cache
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\order-processing\src\OrderService\OrderService.Test\obj\Debug\net8.0\OrderService.Test.sourcelink.json
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\order-processing\src\OrderService\OrderService.Test\obj\Debug\net8.0\OrderService.Test.dll
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\order-processing\src\OrderService\OrderService.Test\obj\Debug\net8.0\refint\OrderService.Test.dll
+C:\Users\TueNguyenTai\SourceCode\TrainingSource\order-processing\src\OrderService\OrderService.Test\obj\Debug\net8.0\OrderService.Test.pdb

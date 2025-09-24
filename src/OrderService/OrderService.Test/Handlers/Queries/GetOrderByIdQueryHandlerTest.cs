@@ -4,6 +4,7 @@ using OrderService.Application.UseCases.Queries.Handlers;
 using OrderService.Domain.Entities;
 using OrderService.Domain.Enums;
 using OrderService.Domain.Interfaces;
+using ProductService.Domain.Entities;
 
 namespace OrderService.Test.Handlers.Queries;
 
@@ -36,7 +37,7 @@ public class GetOrderByIdQueryHandlerTest
                 new OrderItem
                 {
                     ProductId = productId1,
-                    Product = new Product
+                    ProductName = new Product
                     {
                         Id = productId1,
                         ProductName = "Product 1",

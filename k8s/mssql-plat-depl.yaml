@@ -26,7 +26,7 @@ spec:
           ports:
             - containerPort: 1433
           volumeMounts:
-            - name: mssql-data
+            - name: mssql-data 
               mountPath: /var/opt/mssql/data
       volumes:
         - name: mssql-data

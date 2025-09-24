@@ -3095,6 +3095,36 @@
           "bin/placeholder/OrderService.Infrastructure.dll": {}
         }
       },
+      "ProductService.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "FluentValidation": "12.0.0",
+          "FluentValidation.DependencyInjectionExtensions": "12.0.0",
+          "MassTransit": "8.5.2",
+          "MassTransit.RabbitMQ": "8.5.2",
+          "MediatR": "13.0.0",
+          "Microsoft.EntityFrameworkCore": "9.0.7",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.7",
+          "ProductService.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ProductService.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProductService.Application.dll": {}
+        }
+      },
+      "ProductService.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ProductService.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProductService.Domain.dll": {}
+        }
+      },
       "SharedEvent/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -8988,6 +9018,16 @@
       "path": "../OrderService.Infrastructure/OrderService.Infrastructure.csproj",
       "msbuildProject": "../OrderService.Infrastructure/OrderService.Infrastructure.csproj"
     },
+    "ProductService.Application/1.0.0": {
+      "type": "project",
+      "path": "../../ProductService/ProductService.Application/ProductService.Application.csproj",
+      "msbuildProject": "../../ProductService/ProductService.Application/ProductService.Application.csproj"
+    },
+    "ProductService.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../ProductService/ProductService.Domain/ProductService.Domain.csproj",
+      "msbuildProject": "../../ProductService/ProductService.Domain/ProductService.Domain.csproj"
+    },
     "SharedEvent/1.0.0": {
       "type": "project",
       "path": "../../Shared/SharedEvent/SharedEvent.csproj",
@@ -9001,6 +9041,8 @@
       "Moq >= 4.20.72",
       "OrderService.Application >= 1.0.0",
       "OrderService.Infrastructure >= 1.0.0",
+      "ProductService.Application >= 1.0.0",
+      "ProductService.Domain >= 1.0.0",
       "coverlet.collector >= 6.0.0",
       "xunit >= 2.5.3",
       "xunit.runner.visualstudio >= 2.5.3"
@@ -9036,6 +9078,12 @@
             },
             "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj": {
               "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj"
+            },
+            "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Application\\ProductService.Application.csproj": {
+              "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Application\\ProductService.Application.csproj"
+            },
+            "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj": {
+              "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj"
             }
           }
         }

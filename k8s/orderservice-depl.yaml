@@ -1,11 +1,12 @@
+# Deployment and Service
 apiVersion: apps/v1
 kind: Deployment
-metadata:
+metadata: # metadata for deployment
   name: order-service
-spec:
-  replicas: 1
-  selector:
-    matchLabels:
+spec: # specifications for deployment
+  replicas: 1 
+  selector: 
+    matchLabels: 
       app: order-service
   template:
     metadata:
@@ -14,17 +15,28 @@ spec:
     spec:
       containers:
         - name: order-service
-          image: slygel/order-service
+          image: slygel/order-service:latest
+          ports:
+            - containerPort: 5103 # For REST
+            - containerPort: 5203 # For gRPC
+          env:
+          - name: ConnectionStrings__Default
+            value: "Server=mssql-clusterip-srv;Database=OrderDB;User Id=sa;Password=Taitueg903?;"
+          - name: RabbitMQ__Host
+            value: "rabbitmq"
 ---
 apiVersion: v1
 kind: Service
-metadata:
-  name: order-service
-spec:
+metadata: # metadata for service
+  name: order-service 
+spec: # specifications for service
   type: ClusterIP
   selector:
     app: order-service
   ports:
-  - name: order-service
-    port: 80
-    targetPort: 80
+  - name: http
+    port: 5103
+    targetPort: 5103
+  - name: grpc
+    port: 5203
+    targetPort: 5203
