@@ -22,3 +22,15 @@ C:\Users\TueNguyenTai\SourceCode\TrainingSource\order-processing\src\OrderServic
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\order-processing\src\OrderService\OrderService.Domain\obj\Debug\net8.0\refint\OrderService.Domain.dll
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\order-processing\src\OrderService\OrderService.Domain\obj\Debug\net8.0\OrderService.Domain.pdb
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\order-processing\src\OrderService\OrderService.Domain\obj\Debug\net8.0\ref\OrderService.Domain.dll
+D:\TAITUE\DOTNET\order-processing\src\OrderService\OrderService.Domain\bin\Debug\net8.0\OrderService.Domain.deps.json
+D:\TAITUE\DOTNET\order-processing\src\OrderService\OrderService.Domain\bin\Debug\net8.0\OrderService.Domain.dll
+D:\TAITUE\DOTNET\order-processing\src\OrderService\OrderService.Domain\bin\Debug\net8.0\OrderService.Domain.pdb
+D:\TAITUE\DOTNET\order-processing\src\OrderService\OrderService.Domain\obj\Debug\net8.0\OrderService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\TAITUE\DOTNET\order-processing\src\OrderService\OrderService.Domain\obj\Debug\net8.0\OrderService.Domain.AssemblyInfoInputs.cache
+D:\TAITUE\DOTNET\order-processing\src\OrderService\OrderService.Domain\obj\Debug\net8.0\OrderService.Domain.AssemblyInfo.cs
+D:\TAITUE\DOTNET\order-processing\src\OrderService\OrderService.Domain\obj\Debug\net8.0\OrderService.Domain.csproj.CoreCompileInputs.cache
+D:\TAITUE\DOTNET\order-processing\src\OrderService\OrderService.Domain\obj\Debug\net8.0\OrderService.Domain.sourcelink.json
+D:\TAITUE\DOTNET\order-processing\src\OrderService\OrderService.Domain\obj\Debug\net8.0\OrderService.Domain.dll
+D:\TAITUE\DOTNET\order-processing\src\OrderService\OrderService.Domain\obj\Debug\net8.0\refint\OrderService.Domain.dll
+D:\TAITUE\DOTNET\order-processing\src\OrderService\OrderService.Domain\obj\Debug\net8.0\OrderService.Domain.pdb
+D:\TAITUE\DOTNET\order-processing\src\OrderService\OrderService.Domain\obj\Debug\net8.0\ref\OrderService.Domain.dll

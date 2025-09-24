@@ -10,3 +10,16 @@ C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityServ
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Domain\obj\Debug\net8.0\refint\IdentityService.Domain.dll
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Domain\obj\Debug\net8.0\IdentityService.Domain.pdb
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\OrderProcessing\src\IdentityService\IdentityService.Domain\obj\Debug\net8.0\ref\IdentityService.Domain.dll
+D:\TAITUE\DOTNET\order-processing\src\IdentityService\IdentityService.Domain\bin\Debug\net8.0\IdentityService.Domain.deps.json
+D:\TAITUE\DOTNET\order-processing\src\IdentityService\IdentityService.Domain\bin\Debug\net8.0\IdentityService.Domain.dll
+D:\TAITUE\DOTNET\order-processing\src\IdentityService\IdentityService.Domain\bin\Debug\net8.0\IdentityService.Domain.pdb
+D:\TAITUE\DOTNET\order-processing\src\IdentityService\IdentityService.Domain\obj\Debug\net8.0\IdentityService.Domain.csproj.AssemblyReference.cache
+D:\TAITUE\DOTNET\order-processing\src\IdentityService\IdentityService.Domain\obj\Debug\net8.0\IdentityService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\TAITUE\DOTNET\order-processing\src\IdentityService\IdentityService.Domain\obj\Debug\net8.0\IdentityService.Domain.AssemblyInfoInputs.cache
+D:\TAITUE\DOTNET\order-processing\src\IdentityService\IdentityService.Domain\obj\Debug\net8.0\IdentityService.Domain.AssemblyInfo.cs
+D:\TAITUE\DOTNET\order-processing\src\IdentityService\IdentityService.Domain\obj\Debug\net8.0\IdentityService.Domain.csproj.CoreCompileInputs.cache
+D:\TAITUE\DOTNET\order-processing\src\IdentityService\IdentityService.Domain\obj\Debug\net8.0\IdentityService.Domain.sourcelink.json
+D:\TAITUE\DOTNET\order-processing\src\IdentityService\IdentityService.Domain\obj\Debug\net8.0\IdentityService.Domain.dll
+D:\TAITUE\DOTNET\order-processing\src\IdentityService\IdentityService.Domain\obj\Debug\net8.0\refint\IdentityService.Domain.dll
+D:\TAITUE\DOTNET\order-processing\src\IdentityService\IdentityService.Domain\obj\Debug\net8.0\IdentityService.Domain.pdb
+D:\TAITUE\DOTNET\order-processing\src\IdentityService\IdentityService.Domain\obj\Debug\net8.0\ref\IdentityService.Domain.dll

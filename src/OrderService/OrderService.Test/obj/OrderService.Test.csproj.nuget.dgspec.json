@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Test\\OrderService.Test.csproj": {}
+    "D:\\TAITUE\\DOTNET\\order-processing\\src\\OrderService\\OrderService.Test\\OrderService.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Application\\OrderService.Application.csproj": {
+    "D:\\TAITUE\\DOTNET\\order-processing\\src\\OrderService\\OrderService.Application\\OrderService.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Application\\OrderService.Application.csproj",
+        "projectUniqueName": "D:\\TAITUE\\DOTNET\\order-processing\\src\\OrderService\\OrderService.Application\\OrderService.Application.csproj",
         "projectName": "OrderService.Application",
-        "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Application\\OrderService.Application.csproj",
-        "packagesPath": "C:\\Users\\TueNguyenTai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Application\\obj\\",
+        "projectPath": "D:\\TAITUE\\DOTNET\\order-processing\\src\\OrderService\\OrderService.Application\\OrderService.Application.csproj",
+        "packagesPath": "C:\\Users\\Tai Tue\\.nuget\\packages\\",
+        "outputPath": "D:\\TAITUE\\DOTNET\\order-processing\\src\\OrderService\\OrderService.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\TueNguyenTai\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Tai Tue\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,11 +26,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj": {
-                "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj"
+              "D:\\TAITUE\\DOTNET\\order-processing\\src\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj": {
+                "projectPath": "D:\\TAITUE\\DOTNET\\order-processing\\src\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj"
               },
-              "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\Shared\\SharedEvent\\SharedEvent.csproj": {
-                "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\Shared\\SharedEvent\\SharedEvent.csproj"
+              "D:\\TAITUE\\DOTNET\\order-processing\\src\\Shared\\SharedEvent\\SharedEvent.csproj": {
+                "projectPath": "D:\\TAITUE\\DOTNET\\order-processing\\src\\Shared\\SharedEvent\\SharedEvent.csproj"
               }
             }
           }
@@ -107,21 +107,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj": {
+    "D:\\TAITUE\\DOTNET\\order-processing\\src\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj",
+        "projectUniqueName": "D:\\TAITUE\\DOTNET\\order-processing\\src\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj",
         "projectName": "OrderService.Domain",
-        "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj",
-        "packagesPath": "C:\\Users\\TueNguyenTai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Domain\\obj\\",
+        "projectPath": "D:\\TAITUE\\DOTNET\\order-processing\\src\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj",
+        "packagesPath": "C:\\Users\\Tai Tue\\.nuget\\packages\\",
+        "outputPath": "D:\\TAITUE\\DOTNET\\order-processing\\src\\OrderService\\OrderService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\TueNguyenTai\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Tai Tue\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -165,21 +165,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj": {
+    "D:\\TAITUE\\DOTNET\\order-processing\\src\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj",
+        "projectUniqueName": "D:\\TAITUE\\DOTNET\\order-processing\\src\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj",
         "projectName": "OrderService.Infrastructure",
-        "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\TueNguyenTai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Infrastructure\\obj\\",
+        "projectPath": "D:\\TAITUE\\DOTNET\\order-processing\\src\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Tai Tue\\.nuget\\packages\\",
+        "outputPath": "D:\\TAITUE\\DOTNET\\order-processing\\src\\OrderService\\OrderService.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\TueNguyenTai\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Tai Tue\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -191,14 +191,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Application\\OrderService.Application.csproj": {
-                "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Application\\OrderService.Application.csproj"
+              "D:\\TAITUE\\DOTNET\\order-processing\\src\\OrderService\\OrderService.Application\\OrderService.Application.csproj": {
+                "projectPath": "D:\\TAITUE\\DOTNET\\order-processing\\src\\OrderService\\OrderService.Application\\OrderService.Application.csproj"
               },
-              "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj": {
-                "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj"
+              "D:\\TAITUE\\DOTNET\\order-processing\\src\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj": {
+                "projectPath": "D:\\TAITUE\\DOTNET\\order-processing\\src\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj"
               },
-              "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\Shared\\SharedEvent\\SharedEvent.csproj": {
-                "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\Shared\\SharedEvent\\SharedEvent.csproj"
+              "D:\\TAITUE\\DOTNET\\order-processing\\src\\Shared\\SharedEvent\\SharedEvent.csproj": {
+                "projectPath": "D:\\TAITUE\\DOTNET\\order-processing\\src\\Shared\\SharedEvent\\SharedEvent.csproj"
               }
             }
           }
@@ -259,21 +259,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Test\\OrderService.Test.csproj": {
+    "D:\\TAITUE\\DOTNET\\order-processing\\src\\OrderService\\OrderService.Test\\OrderService.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Test\\OrderService.Test.csproj",
+        "projectUniqueName": "D:\\TAITUE\\DOTNET\\order-processing\\src\\OrderService\\OrderService.Test\\OrderService.Test.csproj",
         "projectName": "OrderService.Test",
-        "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Test\\OrderService.Test.csproj",
-        "packagesPath": "C:\\Users\\TueNguyenTai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Test\\obj\\",
+        "projectPath": "D:\\TAITUE\\DOTNET\\order-processing\\src\\OrderService\\OrderService.Test\\OrderService.Test.csproj",
+        "packagesPath": "C:\\Users\\Tai Tue\\.nuget\\packages\\",
+        "outputPath": "D:\\TAITUE\\DOTNET\\order-processing\\src\\OrderService\\OrderService.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\TueNguyenTai\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Tai Tue\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -285,17 +285,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Application\\OrderService.Application.csproj": {
-                "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Application\\OrderService.Application.csproj"
+              "D:\\TAITUE\\DOTNET\\order-processing\\src\\OrderService\\OrderService.Application\\OrderService.Application.csproj": {
+                "projectPath": "D:\\TAITUE\\DOTNET\\order-processing\\src\\OrderService\\OrderService.Application\\OrderService.Application.csproj"
               },
-              "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj"
+              "D:\\TAITUE\\DOTNET\\order-processing\\src\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj": {
+                "projectPath": "D:\\TAITUE\\DOTNET\\order-processing\\src\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj"
               },
-              "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Application\\ProductService.Application.csproj": {
-                "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Application\\ProductService.Application.csproj"
+              "D:\\TAITUE\\DOTNET\\order-processing\\src\\ProductService\\ProductService.Application\\ProductService.Application.csproj": {
+                "projectPath": "D:\\TAITUE\\DOTNET\\order-processing\\src\\ProductService\\ProductService.Application\\ProductService.Application.csproj"
               },
-              "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj": {
-                "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj"
+              "D:\\TAITUE\\DOTNET\\order-processing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj": {
+                "projectPath": "D:\\TAITUE\\DOTNET\\order-processing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj"
               }
             }
           }
@@ -356,21 +356,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Application\\ProductService.Application.csproj": {
+    "D:\\TAITUE\\DOTNET\\order-processing\\src\\ProductService\\ProductService.Application\\ProductService.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Application\\ProductService.Application.csproj",
+        "projectUniqueName": "D:\\TAITUE\\DOTNET\\order-processing\\src\\ProductService\\ProductService.Application\\ProductService.Application.csproj",
         "projectName": "ProductService.Application",
-        "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Application\\ProductService.Application.csproj",
-        "packagesPath": "C:\\Users\\TueNguyenTai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Application\\obj\\",
+        "projectPath": "D:\\TAITUE\\DOTNET\\order-processing\\src\\ProductService\\ProductService.Application\\ProductService.Application.csproj",
+        "packagesPath": "C:\\Users\\Tai Tue\\.nuget\\packages\\",
+        "outputPath": "D:\\TAITUE\\DOTNET\\order-processing\\src\\ProductService\\ProductService.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\TueNguyenTai\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Tai Tue\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -382,8 +382,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj": {
-                "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj"
+              "D:\\TAITUE\\DOTNET\\order-processing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj": {
+                "projectPath": "D:\\TAITUE\\DOTNET\\order-processing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj"
               }
             }
           }
@@ -460,21 +460,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj": {
+    "D:\\TAITUE\\DOTNET\\order-processing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj",
+        "projectUniqueName": "D:\\TAITUE\\DOTNET\\order-processing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj",
         "projectName": "ProductService.Domain",
-        "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj",
-        "packagesPath": "C:\\Users\\TueNguyenTai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Domain\\obj\\",
+        "projectPath": "D:\\TAITUE\\DOTNET\\order-processing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj",
+        "packagesPath": "C:\\Users\\Tai Tue\\.nuget\\packages\\",
+        "outputPath": "D:\\TAITUE\\DOTNET\\order-processing\\src\\ProductService\\ProductService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\TueNguyenTai\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Tai Tue\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -518,21 +518,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\Shared\\SharedEvent\\SharedEvent.csproj": {
+    "D:\\TAITUE\\DOTNET\\order-processing\\src\\Shared\\SharedEvent\\SharedEvent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\Shared\\SharedEvent\\SharedEvent.csproj",
+        "projectUniqueName": "D:\\TAITUE\\DOTNET\\order-processing\\src\\Shared\\SharedEvent\\SharedEvent.csproj",
         "projectName": "SharedEvent",
-        "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\Shared\\SharedEvent\\SharedEvent.csproj",
-        "packagesPath": "C:\\Users\\TueNguyenTai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\Shared\\SharedEvent\\obj\\",
+        "projectPath": "D:\\TAITUE\\DOTNET\\order-processing\\src\\Shared\\SharedEvent\\SharedEvent.csproj",
+        "packagesPath": "C:\\Users\\Tai Tue\\.nuget\\packages\\",
+        "outputPath": "D:\\TAITUE\\DOTNET\\order-processing\\src\\Shared\\SharedEvent\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\TueNguyenTai\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Tai Tue\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -592,7 +592,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -24,3 +24,16 @@ C:\Users\TueNguyenTai\SourceCode\TrainingSource\order-processing\src\Shared\Shar
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\order-processing\src\Shared\SharedEvent\obj\Debug\net8.0\refint\SharedEvent.dll
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\order-processing\src\Shared\SharedEvent\obj\Debug\net8.0\SharedEvent.pdb
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\order-processing\src\Shared\SharedEvent\obj\Debug\net8.0\ref\SharedEvent.dll
+D:\TAITUE\DOTNET\order-processing\src\Shared\SharedEvent\bin\Debug\net8.0\SharedEvent.deps.json
+D:\TAITUE\DOTNET\order-processing\src\Shared\SharedEvent\bin\Debug\net8.0\SharedEvent.dll
+D:\TAITUE\DOTNET\order-processing\src\Shared\SharedEvent\bin\Debug\net8.0\SharedEvent.pdb
+D:\TAITUE\DOTNET\order-processing\src\Shared\SharedEvent\obj\Debug\net8.0\SharedEvent.csproj.AssemblyReference.cache
+D:\TAITUE\DOTNET\order-processing\src\Shared\SharedEvent\obj\Debug\net8.0\SharedEvent.GeneratedMSBuildEditorConfig.editorconfig
+D:\TAITUE\DOTNET\order-processing\src\Shared\SharedEvent\obj\Debug\net8.0\SharedEvent.AssemblyInfoInputs.cache
+D:\TAITUE\DOTNET\order-processing\src\Shared\SharedEvent\obj\Debug\net8.0\SharedEvent.AssemblyInfo.cs
+D:\TAITUE\DOTNET\order-processing\src\Shared\SharedEvent\obj\Debug\net8.0\SharedEvent.csproj.CoreCompileInputs.cache
+D:\TAITUE\DOTNET\order-processing\src\Shared\SharedEvent\obj\Debug\net8.0\SharedEvent.sourcelink.json
+D:\TAITUE\DOTNET\order-processing\src\Shared\SharedEvent\obj\Debug\net8.0\SharedEvent.dll
+D:\TAITUE\DOTNET\order-processing\src\Shared\SharedEvent\obj\Debug\net8.0\refint\SharedEvent.dll
+D:\TAITUE\DOTNET\order-processing\src\Shared\SharedEvent\obj\Debug\net8.0\SharedEvent.pdb
+D:\TAITUE\DOTNET\order-processing\src\Shared\SharedEvent\obj\Debug\net8.0\ref\SharedEvent.dll

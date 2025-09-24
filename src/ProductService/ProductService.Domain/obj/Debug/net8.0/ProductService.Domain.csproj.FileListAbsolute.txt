@@ -22,3 +22,15 @@ C:\Users\TueNguyenTai\SourceCode\TrainingSource\order-processing\src\ProductServ
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\order-processing\src\ProductService\ProductService.Domain\obj\Debug\net8.0\refint\ProductService.Domain.dll
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\order-processing\src\ProductService\ProductService.Domain\obj\Debug\net8.0\ProductService.Domain.pdb
 C:\Users\TueNguyenTai\SourceCode\TrainingSource\order-processing\src\ProductService\ProductService.Domain\obj\Debug\net8.0\ref\ProductService.Domain.dll
+D:\TAITUE\DOTNET\order-processing\src\ProductService\ProductService.Domain\bin\Debug\net8.0\ProductService.Domain.deps.json
+D:\TAITUE\DOTNET\order-processing\src\ProductService\ProductService.Domain\bin\Debug\net8.0\ProductService.Domain.dll
+D:\TAITUE\DOTNET\order-processing\src\ProductService\ProductService.Domain\bin\Debug\net8.0\ProductService.Domain.pdb
+D:\TAITUE\DOTNET\order-processing\src\ProductService\ProductService.Domain\obj\Debug\net8.0\ProductService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\TAITUE\DOTNET\order-processing\src\ProductService\ProductService.Domain\obj\Debug\net8.0\ProductService.Domain.AssemblyInfoInputs.cache
+D:\TAITUE\DOTNET\order-processing\src\ProductService\ProductService.Domain\obj\Debug\net8.0\ProductService.Domain.AssemblyInfo.cs
+D:\TAITUE\DOTNET\order-processing\src\ProductService\ProductService.Domain\obj\Debug\net8.0\ProductService.Domain.csproj.CoreCompileInputs.cache
+D:\TAITUE\DOTNET\order-processing\src\ProductService\ProductService.Domain\obj\Debug\net8.0\ProductService.Domain.sourcelink.json
+D:\TAITUE\DOTNET\order-processing\src\ProductService\ProductService.Domain\obj\Debug\net8.0\ProductService.Domain.dll
+D:\TAITUE\DOTNET\order-processing\src\ProductService\ProductService.Domain\obj\Debug\net8.0\refint\ProductService.Domain.dll
+D:\TAITUE\DOTNET\order-processing\src\ProductService\ProductService.Domain\obj\Debug\net8.0\ProductService.Domain.pdb
+D:\TAITUE\DOTNET\order-processing\src\ProductService\ProductService.Domain\obj\Debug\net8.0\ref\ProductService.Domain.dll

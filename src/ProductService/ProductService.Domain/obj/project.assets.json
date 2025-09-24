@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\TueNguyenTai\\.nuget\\packages\\": {}
+    "C:\\Users\\Tai Tue\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj",
+      "projectUniqueName": "D:\\TAITUE\\DOTNET\\order-processing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj",
       "projectName": "ProductService.Domain",
-      "projectPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj",
-      "packagesPath": "C:\\Users\\TueNguyenTai\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TueNguyenTai\\SourceCode\\TrainingSource\\order-processing\\src\\ProductService\\ProductService.Domain\\obj\\",
+      "projectPath": "D:\\TAITUE\\DOTNET\\order-processing\\src\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj",
+      "packagesPath": "C:\\Users\\Tai Tue\\.nuget\\packages\\",
+      "outputPath": "D:\\TAITUE\\DOTNET\\order-processing\\src\\ProductService\\ProductService.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\TueNguyenTai\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Tai Tue\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
