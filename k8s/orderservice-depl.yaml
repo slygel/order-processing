@@ -21,7 +21,7 @@ spec: # specifications for deployment
             - containerPort: 5203 # For gRPC
           env:
           - name: ConnectionStrings__Default
-            value: "Server=mssql-clusterip-srv;Database=OrderDB;User Id=sa;Password=Taitueg903?;"
+            value: "Server=mssql-clusterip-srv;Database=OrderDB;User Id=$(SA_USER);Password=$(SA_PASSWORD);"
           - name: RabbitMQ__Host
             value: "rabbitmq"
 ---
